@@ -43,9 +43,9 @@ public static void main(String[] args){
 	
 	sc.nextLine();
 	
-	System.out.println("enter a string:");
+	System.out.println("enter a sentance:");
 	String data = sc.nextLine();
-	String[] arr=data.split(",");
+	String[] arr=data.split(" ");
 	System.out.println("splitted strings:");
 	System.out.println(arr[0]);
 	System.out.println(arr[1]);
