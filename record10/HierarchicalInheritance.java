@@ -66,6 +66,7 @@ this.genre=genre;
 }
 @Override
 public void display() {
+super.display();
 System.out.println("Genre:"+genre);
 System.out.println("-----------------------------------");
 }
